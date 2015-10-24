@@ -6,36 +6,9 @@
 </head>
 <body>
 
-<div class="container">
+<?php include('menu.php'); ?>
 
-
-<div class="home_menu_section">
-
-	<div class="home_in">
-		<div class="top_logo">
-			<img src="public/imgs/logo.png" />
-		</div>
-		<div class="top_menu">
-			<nav>
-				<ul>
-					<li><a href="#" class="active">Нүүр</a></li>
-					<li><a href="about">Тухай</a></li>
-					<li><a href="clubs">Клуб</a></li>
-					<li><a href="calendar">Хуваарь</a></li>
-					<li><a href="album">Зураг</a></li>
-					<li><a href="contact">Холбоо барих</a></li>
-				</ul>
-			</nav>
-		</div>
-		<div class="top_description">
-			<h3>NAMSC</h3>
-			<p>National AutoMoto Sport Club</p>
-		</div>
-
-	</div>
-
-</div>
-
+<div class="content">
 <div class="home_about_section">
 
 	<ul>

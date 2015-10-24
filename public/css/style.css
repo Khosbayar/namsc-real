@@ -1,10 +1,3 @@
-*{
-	padding: 0;
-	margin: 0;
-    font-family: 'Roboto';
-    font-family: 'Roboto', sans-serif;
-    font-family: ‘Metrophobic’, Arial, serif; font-weight: 400; 
-}
 
 .hoho{
     border: 1px solid black;
@@ -422,4 +415,119 @@ div.home_menu_section div.home_in{
     position: absolute;
     left: 45%;
     top: 100%;
+}
+
+/**
+
+MENU
+
+
+ * Include Roboto Condensed font in your project
+ * 
+ * Download Roboto Condensed ttf files from Google Fonts and place it in the same directory of this CSS file
+ * You can then use this font in your project by setting
+ * font-face: "Roboto Condensed", Helvetica, Arial, sans-serif;
+ *
+ * @author Mattia Migliorini (deshack)
+ * @license MIT
+ */
+
+/* Light */
+@font-face {
+    font-family: "Roboto Condensed Light";
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Condensed Light'), local('RobotoCondensed-Light'), url("../fonts/RobotoCondensed-Light.ttf") format('truetype');
+}
+@font-face {
+    font-family: "Roboto Condensed Light Italic";
+    font-style: italic;
+    font-weight: 300;
+    src: local('Roboto Condensed Light Italic'), local('RobotoCondensed-LightItalic'), url("../fonts/RobotoCondensed-LightItalic.ttf") format('truetype');
+}
+
+/* Normal */
+@font-face {
+    font-family: "Roboto Condensed Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto Condensed Regular'), local('RobotoCondensed-Regular'), url("../fonts/RobotoCondensed-Regular.ttf") format('truetype');
+}
+@font-face {
+    font-family: "Roboto Condensed Italic";
+    font-style: italic;
+    font-weight: 400;
+    src: local('Roboto Condensed Italic'), local('RobotoCondensed-Italic'), url("../fonts/RobotoCondensed-Italic.ttf") format('truetype');
+}
+
+/* Bold */
+@font-face {
+    font-family: "Roboto Condensed Bold";
+    font-style: normal;
+    font-weight: 700;
+    src: local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'), url("../fonts/RobotoCondensed-Bold.ttf") format('truetype');
+}
+@font-face {
+    font-family: "Roboto Condensed Bold Italic";
+    font-style: italic;
+    font-weight: 700;
+    src: local('Roboto Condensed Bold Italic'), local('RobotoCondensed-BoldItalic'), url("../fonts/RobotoCondensed-BoldItalic.ttf") format('truetype');
+}
+
+*{
+    padding:  0;
+    margin: 0;
+}
+
+
+.header_section{
+    font-family: "Roboto Condensed Bold";
+    background-color: #f15a23;
+}
+
+.container{
+    width: 1080px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.logo{
+    background-color: white;
+    padding: 10px; 
+}
+
+.menu{
+    margin-left: 50px;
+    vertical-align: top;
+    line-height: 88px;  
+}
+
+.logo, .menu{
+    display: inline-block;
+}
+
+.menu ul li{
+    float: left;
+    color: white;
+    text-transform: uppercase;
+    line-height: 88px;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.menu ul li a:hover, .menu ul li a.active{
+    color: black;
+}
+
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 21px;
+}
+
+.content{
+    background-color: #eeeeee;
+    height: 100%;
 }
